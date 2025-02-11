@@ -204,6 +204,8 @@
 }
 #linker-imdb-rating {
     margin-left: 10px;
+    position: relative;
+    top: -1px;
 }
 html.k-mobile #linker-parent {
     margin-top: unset;

@@ -653,7 +653,7 @@ html.k-mobile #linker-parent {
 
         function createImdbRatingElement(rating, numRatings) {
             try {
-                const text = rating !== undefined ? `${rating}${numRatings !== undefined ? ` ( ${numRatings} )` : ""}` : null
+                const text = rating !== undefined ? `${rating}${numRatings !== undefined ? ` (${numRatings})` : ""}` : null
                 const ratingElement = document.createElement("div")
                 ratingElement.id = "linker-imdb-rating"
                 ratingElement.innerText = text
